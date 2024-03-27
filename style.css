@@ -1,0 +1,95 @@
+.toggleTheme {
+  display: flex;
+  justify-content: right;
+  margin-right: 100px;
+}
+.heading {
+  display: flex;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  height: 100vh; /* Set the container height to full viewport height */
+}
+
+.container > div {
+  flex: 1; /* Each div takes equal space */
+  margin: 0 5%; /* Add 5% space between each div */
+  background-color: #67B7D1;
+}
+
+.all-songs{
+  border: 2px solid #000000; /* Border color */
+  border-radius: 10px; /* Adjust the radius to your preference */
+  padding: 10px;
+}
+
+.song-card {
+  border: 2px solid #000000; /* Border color */
+  border-radius: 10px; /* Adjust the radius to your preference */
+  padding: 10px;
+}
+
+.song-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-section {
+  display: flex;
+  align-items: 'center';
+  margin-top: 20px;
+}
+
+.filter-section p {
+  margin-right: 10px; /* Adjust margin between elements as needed */
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+#progressBar {
+  width: 100%;
+  height: 20px;
+  background-color: #ccc;
+}
+
+#progress {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0%;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.container-dark {
+  background-color: gray;
+  color: #fff;
+  /* Add any other styles for the dark theme */
+}
+
+#playlist-div {
+  height: 90vh;
+  width: 40vh;
+  background-color: #67B7D1;
+  margin-top: 40px;
+  border: 2px solid #000000; /* Border color */
+  border-radius: 10px; /* Adjust the radius to your preference */
+  padding: 10px; 
+}
+
+.playlistInput {
+  display: flex;
+}
